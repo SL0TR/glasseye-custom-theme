@@ -1,11 +1,11 @@
 <?php 
-// Main Template Files
+/* Templaye Name: Two-Column Sidebar (right) Template */
   get_header();
 
 ?>
 
  <div class="main-content-width-wrapper">
-  <div class="index-entry">
+  <div class="two-column-entry">
     <h1><?php echo get_the_title(); ?></h1>
 
     <main class="main-content">
@@ -21,6 +21,7 @@
       
     </main>
   </div>
+  <?php get_sidebar('main-sidebar'); ?>
 </div>
 
 <?php get_footer(); ?>
